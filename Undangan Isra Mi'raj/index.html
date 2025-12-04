@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Undangan Isra Mi'raj</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap optional (for grid) -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <!-- Background Music -->
+<audio id="bgMusic" autoplay loop>
+  <source src="audio/lagu.mp3" type="audio/mpeg">
+  Browser kamu tidak mendukung audio.
+</audio>
+
+  <body class="lock-scroll"> 
+    <!-- OPENING -->
+    <section
+      id="buka-undangan"
+      class="opening vh-100 d-flex align-items-center justify-content-center text-center"
+    >
+      <div class="opening-inner">
+        <p class="small">Kepada Yth.</p>
+        <h4 class="nama-tamu">Bapak/Ibu/Saudara/i</h4>
+        <h1 class="title">
+          Peringatan Isra Mi'raj<br /><span class="thin"
+            >Nabi Muhammad SAW</span
+          >
+        </h1>
+        <p class="date">1447 H / 2026 M</p>
+        <button class="btn-open" id="btnOpen">Buka Undangan</button>
+        <p class="hint">Klik untuk membuka undangan</p>
+      </div>
+    </section>
+
+    <!-- MAIN CONTENT WRAPPER -->
+<main id="main" class="hidden">
+
+  <!-- UNDANGAN RESMI -->
+  <section id="undangan" class="undangan-section">
+  <div class="container text-center">
+
+    <!-- TITLE -->
+    <h2 class="gold">Undangan Resmi</h2>
+    <p class="subtitle">
+      Peringatan Isra Mi'raj Nabi Muhammad SAW — 1447 H / 2026 M
+    </p>
+
+    <div class="row justify-content-center mt-4">
+      <div class="col-lg-10">
+
+        <div class="info-grid-3">
+          
+          <!-- TANGGAL -->
+          <div class="info-box">
+            <h4 class="gold small-title">Tanggal & Waktu</h4>
+            <p>
+              27 Rajab 1447 H<br />
+              Jum'at, 30 Januari 2026<br />
+              19:00 WIB – Selesai
+            </p>
+          </div>
+
+          <!-- TEMPAT -->
+          <div class="info-box">
+            <h4 class="gold small-title">Tempat</h4>
+            <p>
+              Masjid Jami Al-Mubarokah<br />
+              Jl. Parakan Saat II – Kota Bandung<br />
+              Arcamanik – Cisaranten Endah
+            </p>
+          </div>
+
+          <!-- RANGKAIAN ACARA -->
+          <div class="info-box">
+            <h4 class="gold small-title">Rangkaian Acara</h4>
+            <ul class="list-unstyled">
+              <li>• Tabligh Akbar</li>
+              <li>• Kreasi Seni Imtihan</li>
+              <li>• Penampilan Gambus</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="undangan-footer mt-5">
+  <p class="uf-title">Sosial Media Kami</p>
+
+  <div class="uf-sosmed">
+
+    <!-- INSTAGRAM -->
+    <a href="https://www.instagram.com/sirrulhaddad_almubarokah?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+       target="_blank"
+       class="uf-item">
+      <img src="img/logo ig.png" alt="Instagram" class="uf-icon">
+      <span>@sirrulhaddadalmubarokah</span>
+    </a>
+
+    <!-- TIKTOK -->
+    <a href="https://www.tiktok.com/@sirrulhaddad_"
+       target="_blank"
+       class="uf-item">
+      <img src="img/tiktok.png" alt="TikTok" class="uf-icon">
+      <span>@sirrulhaddad_</span>
+    </a>
+
+  </div>
+
+  <p class="uf-copy">
+    Panitia Peringatan Isra Mi'raj 1447 H — Masjid Jami Al-Mubarokah
+  </p>
+</div>
+
+
+</main>
+      <!-- COVER + COUNTDOWN (bagian yang sebelumnya kosong) -->
+      <section class="section-cover">
+        <div class="cover-inner container text-center">
+          <h2 class="gold">Hari Yang Dinanti</h2>
+          <div class="timer" aria-hidden="true">
+            <div class="timer-item">
+              <div id="days">00</div>
+              <span>Hari</span>
+            </div>
+            <div class="timer-item">
+              <div id="hours">00</div>
+              <span>Jam</span>
+            </div>
+            <div class="timer-item">
+              <div id="minutes">00</div>
+              <span>Menit</span>
+            </div>
+            <div class="timer-item">
+              <div id="seconds">00</div>
+              <span>Detik</span>
+            </div>
+          </div>
+          <p class="caption-elegant">
+  <span>Dihadiri oleh</span><br>
+  <b>Al Habib Abdurrahman Al Kaff</b><br>
+  <span class="text">dan</span><br>
+  <b>Qori Ust. Tepy Ariyansyah</b>
+</p>
+        </div>
+      </section>
+      <!-- EVENTS -->
+  <div class="container text-center">
+    <h3 class="gold mb-4">Acara Berlangsung Selama 3 Hari</h3>
+
+    <div class="row g-4 justify-content-center">
+
+      <div class="col-md-4 col-sm-6">
+        <div class="card-ev">
+          <h4>Tabligh Akbar</h4>
+          <p>
+            <b>Jumat, 30 Januari 2026</b><br>
+            19:00 WIB – Selesai
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <div class="card-ev">
+          <h4>Kreasi Seni Imtihan</h4>
+          <p>
+            <b>Sabtu, 31 Januari 2026</b><br>
+            19:00 WIB – Selesai
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <div class="card-ev">
+          <h4>Penampilan Gambus</h4>
+          <p>
+            <b>Minggu, 1 Februari 2026</b><br>
+            19:00 WIB – Selesai
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+      <!-- GALERI -->
+      <section class="section-gallery">
+  <div class="gallery-bg" style="background-image: url('img/bg-gallery.jpg')"></div>
+
+  <div class="container">
+    <h2 class="gallery-title gold">Galeri Dokumentasi</h2>
+
+    <div class="gallery-grid" id="gallery">
+      <figure class="gallery-item"><img src="img/foto 1.jpg" alt=""></figure>
+      <figure class="gallery-item"><img src="img/foto2.jpg" alt=""></figure>
+      <figure class="gallery-item"><img src="img/foto3.jpg" alt=""></figure>
+      <figure class="gallery-item"><img src="img/foto4.jpg" alt=""></figure>
+      <figure class="gallery-item"><img src="img/foto5.jpg" alt=""></figure>
+      <figure class="gallery-item"><img src="img/foto6.jpg" alt=""></figure>
+      <figure class="gallery-item"><img src="img/foto7.jpg" alt=""></figure>
+      <figure class="gallery-item"><img src="img/foto8.jpg" alt=""></figure>
+      <figure class="gallery-item"><img src="img/foto9.jpg" alt=""></figure>
+      <figure class="gallery-item"><img src="img/foto10.jpg" alt=""></figure>
+    </div>
+  </div>
+</section>
+
+
+      <!-- PENUTUP / DONASI -->
+      <section class="section-penutup">
+        <div
+          class="penutup-bg"
+          style="background-image: url('img/bg-penutup.jpg')"
+        ></div>
+
+        <div class="penutup-inner container text-center">
+          <h2 class="gold">Terima Kasih</h2>
+          <p class="closing-desc">
+            Kami mengundang seluruh jamaah & alumni untuk hadir memeriahkan
+            acara Isra Mi'raj & Reuni Akbar 1447H / 2026M. Sampai jumpa, semoga
+            sehat selalu.
+          </p>
+
+          <div class="donasi">
+            <p>Donasi dapat dikirim ke rekening:</p>
+            <p class="donasi-acc"><b>BCA 6395421585 — Malik Subagja</b></p>
+            <p>Konfirmasi: <b>0896-6890-7705</b></p>
+          </div>
+        </div>
+      </section>
+
+      <button id="btnTop" title="Ke atas">↑</button>
+
+      <!-- Lightbox -->
+      <div id="lightbox" class="lightbox" aria-hidden="true">
+        <button class="lb-close" aria-label="Tutup">✕</button>
+        <img class="lb-img" src="" alt="" />
+        <p class="lb-caption"></p>
+      </div>
+    </main>
+
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>
