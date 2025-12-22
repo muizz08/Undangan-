@@ -10,8 +10,9 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: radial-gradient(circle at top, #1b739c, #F3E8DF 80%) fixed
+    background: radial-gradient(circle at top, #1b739c, #f5dec8, rgb(28, 28, 28) 80%) fixed
 }
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Merriweather', serif;
@@ -296,6 +297,7 @@ section {
     border: 1px solid rgba(255, 255, 255, 0.1);
     margin-bottom: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
 }
 
 /* Efek hover */
