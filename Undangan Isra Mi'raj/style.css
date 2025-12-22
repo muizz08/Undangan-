@@ -9,8 +9,8 @@
 
 
 body {
-    font-family: 'Roboto', sans-serif;
-    background: radial-gradient(circle at top, #1b739c, #F3E8DF 80%) fixed
+    font-family: 'Roboto', sans-serif 'Bitter', serif; 
+    background: radial-gradient(circle at top, #94B4C1, #F3E8DF 80%) fixed
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -626,3 +626,4 @@ html {
     padding: 0 50px;
     text-align: center;
 }
+
